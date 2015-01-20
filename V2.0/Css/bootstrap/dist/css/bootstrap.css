@@ -2,7 +2,6 @@
  * Bootstrap v3.3.1 (http://getbootstrap.com)
  * Copyright 2011-2014 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
- */
 
 /*! normalize.css v3.0.2 | MIT License | git.io/normalize */
 html {
@@ -12,13 +11,17 @@ html {
 }
 #logo
 {
-	margin-left: 32%;
+	margin-left: 37%;
 }
 #tech
 {
 	margin-left: 10%;
 }
-#workcontact
+img {
+    max-width: 100%;
+    height: auto;
+}
+#coloration
 {
 	background-color: #ecf0f1;
 }
@@ -4269,7 +4272,7 @@ fieldset[disabled] .navbar-default .btn-link:focus {
   color: #ccc;
 }
 .navbar-inverse {
-  background-color: #222;
+  background-color: #ecf0f1;
   border-color: #080808;
 }
 .navbar-inverse .navbar-brand {

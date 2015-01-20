@@ -20,15 +20,16 @@
 				ga('send', 'pageview');
 
 		</script>
+		
+		<link rel="shortcut icon" href="logo.png" type="image/x-icon" />
 	</head>
 
 
 	<body>
 	
 			<!-- Navigateur -->
-	
 		<div class="bs-example" id="navigation">
-		    <nav role="navigation" class="navbar navbar-default">
+		    <nav role="navigation" class="navbar navbar-default  navbar-fixed-top">
 		        <!-- Brand and toggle get grouped for better mobile display -->
 		        <div class="navbar-header">
 		            <button type="button" data-target="#navbarCollapse" data-toggle="collapse" class="navbar-toggle">
@@ -37,7 +38,7 @@
 		                <span class="icon-bar"></span>
 		                <span class="icon-bar"></span>
 		            </button>
-		            <a href="#" class="navbar-brand">Mon Logo</a>
+		            <a href="#" class="navbar-brand"><img src="logo.png" alt="logo" width="33" height="26"></a>
 		        </div>
 		        <!-- Collection of nav links and other content for toggling -->
 		        <div id="navbarCollapse" class="collapse navbar-collapse">
@@ -49,19 +50,18 @@
 		            </ul>
 		        </div>
 		    </nav>
-		</div>
-		
+	</div>
 			<!-- Home -->
 		
 		<div class="container">
 			<div class="row">
 	
 				<div class="col-lg-6 col-lg-offset-3" style="margin-top:20px">
-				<img src="Icones/NewsFlatCV/me.png" alt="desktop" width="64" height="64" class="center-block">
+				<img src="Icones/NewsFlatCV/me.png" alt="desktop" width="64" height="64" class="center-block" style="margin-top:60px">
 				<h3 class="text-center">About</h3>
 				<p class="text-center" style="margin-top:20px">Actuellement en recherche d'emploi ou d'une formation de developpeur web en région Nantaise,
 je me forme en autodidacte à la création de sites Web. N’hésitez pas à me contacter pour que l'on puisse se rencontrer.</p>
-				<div class="col-lg-6 col-lg-offset-5">
+				<div class="col-lg-6 col-lg-offset-5 col-xs-3 col-xs-offset-5">
 				<a href="https://twitter.com/Tristan_Brchrd"><img src="Icones/Twitter.png" alt="Twitter" width="24" height="24"></a>
 				<a href="https://www.linkedin.com/pub/tristan-brochard/31/1b5/950"><img src="Icones/Linkedin.png" alt="Linkedin" width="24" height="24"></a>
 				</div>
@@ -72,11 +72,11 @@ je me forme en autodidacte à la création de sites Web. N’hésitez pas à me 
 		
 		
 			<!-- Work -->
-			
-		<div class="container-fluid" id="workcontact" style="margin-top:40px">
+		<div id="work"></div>	
+		<div class="container-fluid" style="margin-top:40px"  id="coloration">
 			<div class="row">
 				<div class="col-lg-12">
-				<img src="Icones/NewsFlatCV/work.png" alt="work" width="64" height="64" class="center-block" style="margin-top:20px" id="work">
+				<img src="Icones/NewsFlatCV/work.png" alt="work" width="64" height="64" class="center-block" style="margin-top:20px">
 				<h3 class="text-center">Work</h3>
 				</div>
 			</div>
@@ -93,7 +93,11 @@ je me forme en autodidacte à la création de sites Web. N’hésitez pas à me 
 				<div class="col-lg-5 col-lg-offset-2" style="margin-top:60px">
 				<img src="Icones/broadsound.png" alt="broadsound" width="475" height="73" class="center-block" style="margin-bottom:50px">
 				<p class="text-center"  style"margin-bottom:50px">Broadsound est un site d'actualite musicale, visant à promouvoir des artistes peu connus, issus de la nouvelle scène, mais également de faire découvrir ou re-découvrir les groupes et artistes qui ont marqué l'histoire de la musique.</p>
+				
+				<!-- liens broadsound
 				<a href="#"><p class="text-center" style="margin-top:15px">Visite</p></a>
+				-->
+				
 				</div>
 			</div>
 		</div>
@@ -102,7 +106,9 @@ je me forme en autodidacte à la création de sites Web. N’hésitez pas à me 
 		
 			<!-- Profile -->
 			
-		<div class="container" style="margin-top:40px" id="profile">
+		<div id="profile"></div>
+			
+		<div class="container-fluid" style="margin-top:60px">
 			<div class="row">
 				<div class="col-lg-12">
 				<img src="Icones/NewsFlatCV/competence.png" alt="competence" width="64" height="64" class="center-block">
@@ -113,7 +119,7 @@ je me forme en autodidacte à la création de sites Web. N’hésitez pas à me 
 		
 		<div class="container">
 			<div class="row">
-				<div class="col-lg-5">
+				<div class="col-lg-5 col-xs-4">
 				<h3 class="text-center">Technologies</h3>
 					<ul class="nav navbar-nav" id="tech">
 						<li class="col-lg-2"><img src="Icones/NewsFlatCV/html.png" alt="html" width="64" height="64" title="HTML 5"></li>
@@ -124,18 +130,18 @@ je me forme en autodidacte à la création de sites Web. N’hésitez pas à me 
 					</ul>
 				</div>
 					
-				<div class="col-lg-5 col-lg-offset-2">
+				<div class="col-lg-5 col-lg-offset-2 col-xs-5 col-xs-offset-2">
 					<h3 class="text-center">Techniques</h3>
 						<ul class="nav navbar-nav" id="logo">
-							<li class="col-lg-5"><img src="Icones/NewsFlatCV/gimp.png" alt="gimp" width="64" height="64" title="The Gimp"></li>
-							<li class="col-lg-5"><img src="Icones/NewsFlatCV/photo.png" alt="photo" width="64" height="64" title="Photoshop"></li>
+							<li class="col-lg-4"><img src="Icones/NewsFlatCV/gimp.png" alt="gimp" width="64" height="64" title="The Gimp"></li>
+							<li class="col-lg-4"><img src="Icones/NewsFlatCV/photo.png" alt="photo" width="64" height="64" title="Photoshop"></li>
 						</ul>
 					</div>
 				</div>	
 			</div>
 		</div>
 		
-		<div class="container">
+		<div class="container-fluid">
 			<div class="row">
 				<div class="col-lg-12">
 				<img src="Icones/NewsFlatCV/etude.png" alt="etude" width="64" height="64" class="center-block" style="margin-top:40px">
@@ -148,28 +154,28 @@ je me forme en autodidacte à la création de sites Web. N’hésitez pas à me 
 			<div class="row">
 				<div class="col-lg-5">
 					<ul>
-						<li style="margin-bottom:70px"><p>MOOC HTML5 et CSS3, 2014</p></li>
-						<li style="margin-bottom:70px"><p>MOOC Community Manager, 2014</p></li>
-						<li style="margin-bottom:70px"><p>Bac Professionnel de Maintenance Industrielle, 2012</p></li>
-						<li style="margin-bottom:70px"><p>Bep Maintenance Industrielle, 2011</p></li>
+						<li style="margin-bottom:30px"><p>MOOC HTML5 et CSS3, 2014, <br>
+							(Massive Open Online Course) <br>
+							Apprenez à créer votre site Web en HTML5 et CSS 3 <br>
+							<a href="MOOC/certificatHTML.pdf">Certificat</a>
+						</p></li>
+						<li style="margin-bottom:30px"><p>MOOC Community Manager, 2014<br>
+							MOOC (Massive Open Online Course) <br>
+							Les clés pour devenir Community Manager <br>
+							Pas encore de certification.
+						</p></li>
 					</ul>
 				</div>
 				
 				<div class="col-lg-5 col-lg-offset-2">
 					<ul>
-						<li style="margin-bottom:20px"><p>MOOC (Massive Open Online Course) <br>
-							Apprenez à créer votre site Web en HTML5 et CSS 3 <br>
-							<a href="MOOC/certificatHTML.pdf">Certificat</a>
-						</p></li>
-						<li style="margin-bottom:20px"><p>MOOC (Massive Open Online Course) <br>
-							Les clés pour devenir Community Manager <br>
-							Pas encore de certification.
-						</p></li>
-						<li style="margin-bottom:20px"><p>- Electrique / Hydraulique <br>
+						<li style="margin-bottom:30px"><p>Bac Professionnel de Maintenance Industrielle, 2012<br>
+							- Electrique / Hydraulique <br>
 							- Pneumatique / Automatisme <br>
 							- Solidworks / Dessin Industriel
 						</p></li>												
-						<li style="margin-bottom:20px"><p>- Electrique / Hydraulique <br>
+						<li style="margin-bottom:30px"><p>Bep Maintenance Industrielle, 2011<br>
+							- Electrique / Hydraulique <br>
 							- Pneumatique / Automatisme <br>
 							- Solidworks / Dessin Industriel
 						</p></li>
@@ -178,7 +184,7 @@ je me forme en autodidacte à la création de sites Web. N’hésitez pas à me 
 			</div>
 		</div>
 		
-		<div class="container" style="margin-top:40px">
+		<div class="container-fluid" style="margin-top:40px">
 			<div class="row">
 				<div class="col-lg-2 col-lg-offset-5">
 					<a href="CVWebConcepteur.compressed.pdf"><p class="text-center">CV .pdf</p></a>
@@ -187,11 +193,11 @@ je me forme en autodidacte à la création de sites Web. N’hésitez pas à me 
 		</div>
 				
 				<!-- Contact -->
-				
-		<div class="container-fluid" id="workcontact" style="margin-top:40px">
+		<div id="contact"></div>		
+		<div class="container-fluid" style="margin-top:40px" id="coloration">
 			<div class="row">
 				<div class="col-lg-12">
-					<img src="Icones/NewsFlatCV/contact.png" alt="contact" width="64" height="64" class="center-block" style="margin-top:40px" id="contact">
+					<img src="Icones/NewsFlatCV/contact.png" alt="contact" width="64" height="64" class="center-block" style="margin-top:40px">
 					<h3 class="text-center">Contact</h3>
 				</div>
 			</div>
