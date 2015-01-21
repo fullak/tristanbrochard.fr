@@ -21,12 +21,20 @@ img {
     max-width: 100%;
     height: auto;
 }
+footer
+{
+	background-color: white;
+}
 #coloration
 {
 	background-color: #ecf0f1;
 }
 body {
   margin: 0;
+}
+#division
+{
+  background-color: #ecf0f1;
 }
 article,
 aside,
@@ -3665,11 +3673,13 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   position: relative;
   display: block;
   padding: 10px 15px;
+  color: #27ae60;
 }
 .nav > li > a:hover,
 .nav > li > a:focus {
   text-decoration: none;
   background-color: #eee;
+  color: #34495e;
 }
 .nav > li.disabled > a {
   color: #777;
